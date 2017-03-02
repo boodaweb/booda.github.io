@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  h1.brand-logo{margin:12px;}
+
+footer.page-footer .footer-copyright{
+    color:black;
+    overflow: visible;
+
+}
+footer.page-footer .footer-copyright .container{
+    position: relative;
+}
+
+footer.page-footer .footer-copyright .logo{
+    position: absolute;
+    bottom:0;
+     right:10px;
+}
